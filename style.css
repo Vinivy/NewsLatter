@@ -21,7 +21,6 @@ main {
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: 85vh, auto;
 
-  
   width: 80vw;
   height: max-content;
 }
@@ -115,6 +114,36 @@ main {
   justify-content: baseline;
 
   overflow: auto;
+}
+
+/*Caixa de conclusão*/
+.Thanks {
+  font-size: 3.5rem;
+  font-family: 'paragraph';
+  font-weight: 700;
+  color:  hsl(234, 29%, 20%);
+}
+
+.TextSubs {
+  font-family: 'paragraph';
+  font-size: 18px;
+  font-weight: 400;
+  color:  hsl(234, 29%, 20%);
+}
+
+.message {
+  border-radius: 8px;
+  height: 7vh;
+  margin: 1rem 0 0 0;
+
+  font: 20px;
+  font-weight: 900;
+  color: #ffff;
+
+  cursor: pointer;
+  background: linear-gradient(110deg,  hsl(0, 98%, 61%), hsl(16, 100%, 53%));
+
+  border: 0;
 }
 
 @media (max-width: 1060px) {
